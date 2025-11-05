@@ -152,7 +152,6 @@ article {
     align-items: flex-start;
     margin-bottom: 30px;
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 article img {
