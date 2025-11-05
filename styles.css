@@ -50,7 +50,6 @@ nav a:hover {
     color: #5A67D8;
 }
 
-/* Hero Overview Section */
 .overview-hero {
     background-color: #E2E8F0;
     padding: 40px 0;
@@ -75,4 +74,146 @@ nav a:hover {
 .overview-hero-text h2 {
     font-size: 28px;
     margin-top: 0;
+}
+
+
+.learn-about {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.learn-about h2 {
+    font-size: 24px;
+    color: #48BB78;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: white;
+    padding: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+.card-body h3 {
+    color: #48BB78;
+    font-size: 21px;
+    margin-top: 10px;
+}
+
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding: 40px 0;
+}
+
+.testing .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.testing h2 {
+    margin-top: 0;
+}
+
+.testing .btn {
+    background-color: #48BB78;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.stories {
+    padding: 40px 0;
+}
+
+.stories h2 {
+    color: #5A67D8;
+}
+
+article {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+article img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.article-body h3 {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.article-body a {
+    color: #5A67D8;
+    text-decoration: none;
+}
+
+.article-body a:hover {
+    text-decoration: underline;
+}
+
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.newsletter .btn {
+    background-color: #5A67D8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter .btn:hover {
+    opacity: 0.9;
+}
+
+.message {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #4A5568;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    margin-top: 40px;
 }
